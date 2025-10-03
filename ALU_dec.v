@@ -13,5 +13,5 @@ assign ALUcontrol=  (ALUop==2'b00)?3'b000:
                     ((ALUop==2'b10)&(funct3==3'b110))?3'b011:
                     ((ALUop==2'b10)&(funct3==3'b111))?3'b010:
                     ((ALUop==2'b10)&(funct3==3'b000)&(concat==2'b11))?3'b001:
-                    ((ALUop==2'b10)&(funct3==3'b000)&(concat!=2'b11))?3'b000:
+                    ((ALUop==2'b10)&(funct3==3'b000)&(concat!=2'b11))?3'b000:3'b000;
 endmodule

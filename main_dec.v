@@ -1,4 +1,4 @@
-module maindec(Zero,op,MemWrite,RegWrite,ALUSrc,resultsrc,immsrc,ALUop,PCSrc)
+module maindec(Zero,op,MemWrite,RegWrite,ALUSrc,resultsrc,immsrc,ALUop,PCSrc);
 input Zero;
 input [6:0]op;
 output MemWrite,RegWrite,ALUSrc,resultsrc,PCSrc;
