@@ -1,14 +1,14 @@
-module data_mem(A,WD,WE,clk,RD);
+module data_mem(A,WD,WE,clk,RD,rst);
 input [31:0]A,WD;
-input clk,WE;
+input clk,WE,rst;
 output [31:0]RD;
 
 reg [31:0] Data_MEM [1023:0];
 
-assign RD=(WE==1'b1)?32'h00000000:Data_MEM[A];
+assign RD=((WE==1'b1)|(!rst))?32'h00000000:Data_MEM[A];
 always @(posedge clk)
 begin 
-if(WE)
+if((WE)&(rst))
 begin
     Data_MEM[A]<=WD;
 end
