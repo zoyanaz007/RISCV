@@ -70,7 +70,7 @@ data_mem datamemory(.A(ALUres_to_datamem),
                     .WD(),
                     .WE(),
                     .clk(clk),
-                    .RD(datamem_to_reg)
+                    .RD(datamem_to_reg),
                     .rst(rst)
 );
 
