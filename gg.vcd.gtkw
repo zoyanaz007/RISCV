@@ -1,0 +1,99 @@
+[*]
+[*] GTKWave Analyzer v3.3.100 (w)1999-2019 BSI
+[*] Mon Oct 06 18:21:53 2025
+[*]
+[dumpfile] "D:\RISC V\gg.vcd"
+[dumpfile_mtime] "Mon Oct 06 17:42:46 2025"
+[dumpfile_size] 5494
+[savefile] "D:\RISC V\gg.vcd.gtkw"
+[timestart] 0
+[size] 1536 793
+[pos] -165 -165
+*-5.900445 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] single_cycle_top.
+[treeopen] single_cycle_top.singlecycletop.
+[treeopen] single_cycle_top.singlecycletop.controlunit.
+[sst_width] 197
+[signals_width] 182
+[sst_expanded] 1
+[sst_vpaned_height] 221
+@28
+single_cycle_top.singlecycletop.PC.clk
+single_cycle_top.singlecycletop.PC.rst
+@800200
+-PC
+@22
+single_cycle_top.singlecycletop.PC.PC[31:0]
+single_cycle_top.singlecycletop.PC.PC_Next[31:0]
+@1000200
+-PC
+@800200
+-instructionmemory
+@22
+single_cycle_top.singlecycletop.InMEM.A[31:0]
+single_cycle_top.singlecycletop.InMEM.RD[31:0]
+@1000200
+-instructionmemory
+@800200
+-pc_adder
+@22
+single_cycle_top.singlecycletop.pcadder.a[31:0]
+single_cycle_top.singlecycletop.pcadder.b[31:0]
+single_cycle_top.singlecycletop.pcadder.c[31:0]
+@1000200
+-pc_adder
+@800200
+-sign extend
+@22
+single_cycle_top.singlecycletop.signedext.In[31:0]
+single_cycle_top.singlecycletop.signedext.ImmExt[31:0]
+@1000200
+-sign extend
+@800200
+-regfile
+@22
+single_cycle_top.singlecycletop.regfile.A1[4:0]
+single_cycle_top.singlecycletop.regfile.A2[4:0]
+single_cycle_top.singlecycletop.regfile.A3[4:0]
+single_cycle_top.singlecycletop.regfile.RD1[31:0]
+single_cycle_top.singlecycletop.regfile.RD2[31:0]
+@28
+single_cycle_top.singlecycletop.regfile.WE3
+@22
+single_cycle_top.singlecycletop.regfile.WD3[31:0]
+@1000200
+-regfile
+@800200
+-alu
+@22
+single_cycle_top.singlecycletop.ALU.A[31:0]
+single_cycle_top.singlecycletop.ALU.B[31:0]
+@28
+single_cycle_top.singlecycletop.ALU.ALUcontrol[2:0]
+@22
+single_cycle_top.singlecycletop.ALU.Res[31:0]
+@1000200
+-alu
+@800200
+-control unit
+@22
+single_cycle_top.singlecycletop.controlunit.Main_dec.op[6:0]
+@28
+single_cycle_top.singlecycletop.controlunit.ALUdecoder.funct3[2:0]
+single_cycle_top.singlecycletop.controlunit.ALUdecoder.ALUcontrol[2:0]
+single_cycle_top.singlecycletop.controlunit.Main_dec.RegWrite
+@1000200
+-control unit
+@800200
+-data mem
+@22
+single_cycle_top.singlecycletop.datamemory.A[31:0]
+single_cycle_top.singlecycletop.datamemory.RD[31:0]
+@23
+single_cycle_top.singlecycletop.datamemory.WD[31:0]
+@28
+single_cycle_top.singlecycletop.datamemory.WE
+@1000200
+-data mem
+[pattern_trace] 1
+[pattern_trace] 0
