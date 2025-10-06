@@ -1,7 +1,7 @@
 module maindec(op,MemWrite,RegWrite,ALUSrc,resultsrc,immsrc,ALUop,branch);
 //input Zero;
 input [6:0]op;
-output MemWrite,RegWrite,ALUSrc,resultsrc,PCSrc;
+output MemWrite,RegWrite,ALUSrc,resultsrc;
 output [1:0]immsrc,ALUop;
 
 output branch;
